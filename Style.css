@@ -5,6 +5,7 @@
 
 body {
     background-color: #191825;
+    text-align: center; 
 }
 h1 {
     color: #E384FF;
@@ -32,8 +33,19 @@ h1 {
 .box {
     height: 18vh;
     width: 18vh;
-    font-size: 90px;
+    font-size: 40px;
     border-radius: 1rem;
     border: none;
     box-shadow: 0px 0px 30px 10px rgba(255, 255, 150, 0.6);
+}
+
+#reset {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 10px 1px; 
 }
